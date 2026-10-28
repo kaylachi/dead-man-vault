@@ -1,0 +1,17 @@
+{
+  "name": "dead-man-vault",
+  "version": "1.0.0",
+  "description": "A decentralized digital asset inheritance and dead-man's switch smart contract on BOT Chain",
+  "main": "deploy.js",
+  "scripts": {
+    "deploy": "node deploy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.0",
+    "solc": "0.8.24"
+  }
+}
