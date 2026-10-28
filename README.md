@@ -1,6 +1,6 @@
 # DeadManVault
 
-[![Tally Provenance](https://tallyarc.tech/api/badge/0xE81DE339f66E9c5eaCF9B19f93A8Ba1c62ecdF55?chain=bot)](https://tallyarc.tech/c/0xE81DE339f66E9c5eaCF9B19f93A8Ba1c62ecdF55?chain=bot)
+[![Tally Verified](https://tallyarc.tech/api/badge/0xE81DE339f66E9c5eaCF9B19f93A8Ba1c62ecdF55?chain=bot)](https://tallyarc.tech/c/0xE81DE339f66E9c5eaCF9B19f93A8Ba1c62ecdF55?chain=bot)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Solidity](https://img.shields.io/badge/Solidity-0.8.24-blue)](https://soliditylang.org/)
 
@@ -21,7 +21,19 @@ A decentralized digital asset inheritance and dead-man's switch smart contract o
 
 ---
 
-## 2. Architecture
+## 2. Deployments & Provenance
+
+| Network | Chain ID | Native Coin | Contract Address | Tally Status |
+| :--- | :---: | :---: | :--- | :---: |
+| **BOT Chain** | `677` | BOT | [`0xE81DE339f66E9c5eaCF9B19f93A8Ba1c62ecdF55`](https://scan.botchain.ai/address/0xE81DE339f66E9c5eaCF9B19f93A8Ba1c62ecdF55) | **Tally Verified** 🟢 |
+
+* **Live Tally Record:** [https://tallyarc.tech/c/0xE81DE339f66E9c5eaCF9B19f93A8Ba1c62ecdF55?chain=bot](https://tallyarc.tech/c/0xE81DE339f66E9c5eaCF9B19f93A8Ba1c62ecdF55?chain=bot)
+* **Registration Tx:** [`0x61b3663b7330f0b2e59db82400c415716ae124edc156f969f88586e4e6d72159`](https://scan.botchain.ai/tx/0x61b3663b7330f0b2e59db82400c415716ae124edc156f969f88586e4e6d72159)
+* **Verified Owner / Signer:** `0x71198ce91fe39a21e112Ce251750b4d765bc033D`
+
+---
+
+## 3. Architecture
 
 ```
                     +-----------------------------+
@@ -49,7 +61,7 @@ A decentralized digital asset inheritance and dead-man's switch smart contract o
 
 ---
 
-## 3. Specifications
+## 4. Specifications
 
 * **Solidity Version:** `0.8.24`
 * **EVM Target:** `paris`
@@ -58,15 +70,15 @@ A decentralized digital asset inheritance and dead-man's switch smart contract o
 
 ---
 
-## 4. Tally Provenance & Verification
+## 5. Tally Provenance & Verification
 
-* **Status:** Verified 🟢
-* **Control:** Proven on-chain via `owner` contract role.
-* **Code:** Bytecode matches the source repository.
-* **Source:** Listed in root [`tally.json`](./tally.json).
+* **Status:** **Tally Verified** 🟢
+* **Control:** Proven on-chain via `owner` role held by `0x71198ce91fe39a21e112Ce251750b4d765bc033D`.
+* **Code:** Bytecode matches the source repository; non-upgradeable.
+* **Source:** Listed in root [`tally.json`](./tally.json) on the default branch (`main`).
 
 ---
 
-## 5. License
+## 6. License
 
 MIT License. See [LICENSE](LICENSE) for details.
