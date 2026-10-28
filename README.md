@@ -1,6 +1,6 @@
 # DeadManVault
 
-[![Tally Provenance](https://tallyarc.tech/api/badge/CONTRACT_ADDRESS_PLACEHOLDER?chain=bot)](https://tallyarc.tech/c/CONTRACT_ADDRESS_PLACEHOLDER?chain=bot)
+[![Tally Provenance](https://tallyarc.tech/api/badge/0xE81DE339f66E9c5eaCF9B19f93A8Ba1c62ecdF55?chain=bot)](https://tallyarc.tech/c/0xE81DE339f66E9c5eaCF9B19f93A8Ba1c62ecdF55?chain=bot)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Solidity](https://img.shields.io/badge/Solidity-0.8.24-blue)](https://soliditylang.org/)
 

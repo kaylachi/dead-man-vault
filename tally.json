@@ -1,4 +1,10 @@
 {
   "version": 1,
-  "contracts": []
+  "contracts": [
+    {
+      "chainId": 677,
+      "address": "0xE81DE339f66E9c5eaCF9B19f93A8Ba1c62ecdF55",
+      "signer": "0x71198ce91fe39a21e112Ce251750b4d765bc033D"
+    }
+  ]
 }
