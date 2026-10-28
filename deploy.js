@@ -16,9 +16,9 @@ async function main() {
 
     // 1. Verify Private Key
     const privateKey = process.env.PRIVATE_KEY;
-    if (!privateKey || privateKey.trim() === '' || privateKey.includes('PASTE_YOUR_PRIVATE_KEY_HERE')) {
+    if (!privateKey || privateKey.trim() === '' || privateKey.includes('PASTE') || !privateKey.startsWith('0x') || privateKey.length !== 66) {
         console.error('❌ Error: PRIVATE_KEY is missing or invalid in .env!');
-        console.error('👉 Please open .env and set PRIVATE_KEY=0xYourPrivateKey');
+        console.error('👉 Please open .env and set PRIVATE_KEY=0xYourNewPrivateKey (must be 66 characters)');
         process.exitCode = 1;
         return;
     }
